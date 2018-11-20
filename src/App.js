@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css'; 
-import Score from "./Score.js";
-import Time from "./Time.js";
-import PlayingArea from "./PlayingArea";
+import Score from "./Header/Score.js";
+import Time from "./Header/Time.js";
+import PlayingArea from "./PlayArea/PlayingArea";
 
 class App extends Component {
   render() {
